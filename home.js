@@ -5,6 +5,7 @@ import { Link, router } from 'expo-router'
 const home = () => {
   return (
       <View style={styles.container}>
+          <Text>hello</Text>
           <Image source={require("./hridoy.jpeg")} style={styles.image} />
       <Pressable onPress={() => router.replace("/createPost")} style={styles.button}><Text style={styles.text}>Create Post</Text></Pressable>
     </View>
